@@ -11,7 +11,7 @@ Add the following plugin configuration in `gatsby-config.js` to activate the plu
 
 ```js
 {
-    resolve: `stackcheats-source-firebase-comments`,
+    resolve: `sc-firebase-comments`,
     options: {
         apiKey: process.env.FIREBASE_API_KEY,
         authDomain: process.env.FIREBASE_AUTH_DOMAIN,
